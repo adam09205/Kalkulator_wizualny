@@ -78,6 +78,7 @@
             button1.TabIndex = 4;
             button1.Text = "Add";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -87,6 +88,7 @@
             button2.TabIndex = 5;
             button2.Text = "Sub";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button1_Click;
             // 
             // textBox3
             // 
@@ -103,7 +105,6 @@
             label3.Size = new Size(65, 25);
             label3.TabIndex = 7;
             label3.Text = "Wynik:";
-            
             // 
             // Form1
             // 
